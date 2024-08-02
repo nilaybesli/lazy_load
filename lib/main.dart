@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Photo List',
+      debugShowCheckedModeBanner: false,
       initialBinding: BindingsBuilder(() {
         Get.put(PhotoController());
       }),
